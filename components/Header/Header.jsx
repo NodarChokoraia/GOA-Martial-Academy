@@ -47,6 +47,7 @@ export default function Header() {
                 <div className='hidden container max-[850px]:pl-5 max-[850px]:pr-5  max-[1200px]:flex'>
                     <div className='w-full flex justify-between items-center'>
                         <div className='w-fit h-fit flex gap-3 z-1 mr-auto items-center cursor-pointer' onClick={() => {window.scroll({
+                            
                                             top:0,
                                     })}}>
                         <div className='group w-16 h-16 border-4 border-[#df202e]  bg-[#df202e] rounded-[10px] flex items-center justify-center transform rotate-45 transition cursor-pointer hover:rotate-60 ' >
