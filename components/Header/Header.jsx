@@ -41,7 +41,7 @@ export default function Header() {
                                 </ul>
                             </div>
                         
-                        <a href='#contact'><button className='bg-[#df202e] pt-3 ml-auto z-1 pb-3 pl-7 pr-7 tracking-[2px] text-[20px] cursor-pointer  text-white  font-[Oswald] transition-all duration-500 hover:brightness-85'>FREE TRAIL</button></a>
+                        <a href='#contact' className='ml-auto'><button className='bg-[#df202e] pt-3 ml-auto z-1 pb-3 pl-7 pr-7 tracking-[2px] text-[20px] cursor-pointer  text-white  font-[Oswald] transition-all duration-500 hover:brightness-85'>FREE TRAIL</button></a>
                </div>
 
                 <div className='hidden container max-[850px]:pl-5 max-[850px]:pr-5  max-[1200px]:flex'>
