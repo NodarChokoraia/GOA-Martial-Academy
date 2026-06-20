@@ -41,7 +41,7 @@ export default function Header() {
                                 </ul>
                             </div>
                         
-                        <button className='bg-[#df202e] pt-3 ml-auto z-1 pb-3 pl-7 pr-7 tracking-[2px] text-[20px] cursor-pointer  text-white  font-[Oswald] transition-all duration-500 hover:brightness-85'>FREE TRAIL</button>
+                        <a href='#contact'><button className='bg-[#df202e] pt-3 ml-auto z-1 pb-3 pl-7 pr-7 tracking-[2px] text-[20px] cursor-pointer  text-white  font-[Oswald] transition-all duration-500 hover:brightness-85'>FREE TRAIL</button></a>
                </div>
 
                 <div className='hidden container max-[850px]:pl-5 max-[850px]:pr-5  max-[1200px]:flex'>
@@ -78,7 +78,7 @@ export default function Header() {
                                     <a href="#gallery" className='text-[#797f83] tracking-[1px] text-[18px] transition-colors duration-500 border-[#18191b] ease-in-out font-[Oswald] hover:text-white max-[1200px]:text-white max-[1200px]:border-b max-[1200px]:w-full max-[1200px]:pt-3 max-[1200px]:pb-3'>GALLERY</a>
                                     <a href="#membership" className='text-[#797f83] tracking-[1px] text-[18px] transition-colors duration-500  border-[#18191b] ease-in-out font-[Oswald] hover:text-white max-[1200px]:text-white max-[1200px]:border-b max-[1200px]:w-full max-[1200px]:pt-3 max-[1200px]:pb-3'>MEMBERSHIP</a>
                                     <a href="#" className='text-[#797f83] tracking-[1px] text-[18px] transition-colors duration-500 border-[#18191b] ease-in-out font-[Oswald] hover:text-white max-[1200px]:text-white max-[1200px]:border-b max-[1200px]:w-full max-[1200px]:pt-3 max-[1200px]:pb-3'>CONTACT</a>
-                                    <button className='bg-[#df202e]  pt-3  z-1 pb-3 pl-7 pr-7 tracking-[2px] text-[20px] cursor-pointer  text-white  font-[Oswald] transition-all duration-500 hover:brightness-85 max-[1200px]:w-full max-[1200px]:text-white'>FREE TRAIL</button>
+                                    <a href='#contact'><button className='bg-[#df202e]  pt-3  z-1 pb-3 pl-7 pr-7 tracking-[2px] text-[20px] cursor-pointer  text-white  font-[Oswald] transition-all duration-500 hover:brightness-85 max-[1200px]:w-full max-[1200px]:text-white'>FREE TRAIL</button></a>
                                 </ul>
                             
                         
@@ -104,13 +104,15 @@ export default function Header() {
                                         </h1>
                                         <p className='font-[Inter] mt-8 text-lg text-[#93999e] max-[850px]:text-center' >Professional MMA and martial arts training in Tbilisi. Walk in <br /> a beginner. Walk out a fighter.</p>
                                         <div className='flex gap-5 mt-10 max-[500px]:flex-col max-[500px]:w-full'>
-                                            <button className='bg-[#df202e] group  flex pt-3 max-[500px]:w-full max-[500px]:justify-center  z-1 pb-3   tracking-[2px] cursor-pointer   items-center gap-2 uppercase  text-white  font-[Oswald] transition-all duration-500 hover:brightness-85 '>
-                                                <div className='flex  w-53 h-full items-center justify-center   transition-all duration-500'>
-                                                    Start Training
-                                                    <svg xmlns="http://www.w3.org/2000/svg" className='w-5 ml-2 group-hover:translate-x-1 transition' viewBox="0 0 640 640"><path fill="rgb(255, 255, 255)" d="M566.6 342.6C579.1 330.1 579.1 309.8 566.6 297.3L406.6 137.3C394.1 124.8 373.8 124.8 361.3 137.3C348.8 149.8 348.8 170.1 361.3 182.6L466.7 288L96 288C78.3 288 64 302.3 64 320C64 337.7 78.3 352 96 352L466.7 352L361.3 457.4C348.8 469.9 348.8 490.2 361.3 502.7C373.8 515.2 394.1 515.2 406.6 502.7L566.6 342.7z"/></svg>
-                                                </div>
-                                            </button>
-                                            <button className='bg-[#ffffff0a] max-[500px]:w-full transition-colors duration-500 cursor-pointer  text-white uppercase  font-[Oswald] pb-3 pt-3 w-53 border tracking-[2px] border-[#646464] hover:border-[#df202e]'> Book Free Trial</button>
+                                            <a href='#contact'>
+                                                <button className='bg-[#df202e] group  flex pt-3 max-[500px]:w-full max-[500px]:justify-center  z-1 pb-3   tracking-[2px] cursor-pointer   items-center gap-2 uppercase  text-white  font-[Oswald] transition-all duration-500 hover:brightness-85 '>
+                                                    <div className='flex  w-53 h-full items-center justify-center   transition-all duration-500'>
+                                                        Start Training
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className='w-5 ml-2 group-hover:translate-x-1 transition' viewBox="0 0 640 640"><path fill="rgb(255, 255, 255)" d="M566.6 342.6C579.1 330.1 579.1 309.8 566.6 297.3L406.6 137.3C394.1 124.8 373.8 124.8 361.3 137.3C348.8 149.8 348.8 170.1 361.3 182.6L466.7 288L96 288C78.3 288 64 302.3 64 320C64 337.7 78.3 352 96 352L466.7 352L361.3 457.4C348.8 469.9 348.8 490.2 361.3 502.7C373.8 515.2 394.1 515.2 406.6 502.7L566.6 342.7z"/></svg>
+                                                    </div>
+                                                </button>
+                                            </a>
+                                            <a href='#contact'><button className='bg-[#ffffff0a] max-[500px]:w-full transition-colors duration-500 cursor-pointer  text-white uppercase  font-[Oswald] pb-3 pt-3 w-53 border tracking-[2px] border-[#646464] hover:border-[#df202e]'> Book Free Trial</button></a>
                                         </div>
                                     
                                 </div>
