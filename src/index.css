@@ -1,0 +1,27 @@
+@import 'tailwindcss';
+html{
+    scroll-behavior: smooth;
+}
+*::selection{
+    color: white;
+    background-color: #df202e;
+}
+body{
+    background-color: #060809;
+    color: #060809;
+    position: relative;
+    overflow-x: hidden;
+}
+.nav{
+    transition: 0.5s ease-in-out;
+    background-color: #ffffff0a;
+    backdrop-filter: blur(24px) saturate(160%);
+}
+@keyframes slider {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+.slider {
+  animation: slider 70s linear infinite;
+  flex-shrink: 0;
+}
